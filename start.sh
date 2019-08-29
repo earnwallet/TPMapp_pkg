@@ -5,7 +5,7 @@ echo "===PacKaGe===";
 echo "===Manager===";
 echo "=====TOOL====";
 echo "=============";
-sleep 3;
+sleep 1;
 clear
 echo "What would you like to do?";
 echo " (1) Install";
@@ -126,7 +126,7 @@ then
     for f in *;
     do
          echo " (+) $f";
-         sleep 1;
+         sleep 0.2;
     done
     echo "=============";
     echo "Which $type would you like to update?";
@@ -193,7 +193,7 @@ then
     for f in *;
     do
          echo " (+) $f";
-         sleep 1;
+         sleep 0.2;
     done
     echo "=============";
     echo "Which $type would you like to remove?";
